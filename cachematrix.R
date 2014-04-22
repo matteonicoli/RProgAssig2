@@ -4,9 +4,9 @@
 ## the ...$setinverse() function in order to cache it.
 ## --------------------------------------------------------------
 ## A$set(B) sets the value of the matrix, A <- B
-## A$get() gets returns the matrix A
-## A$setinverse(iA) set the cached inverse inv_A <- iA
-## A$getinverse() returns the cached inverse of the matrix A
+## A$get()  returns the matrix A
+## A$setinverse(iA) sets the cached inverse inv_A <- iA
+## A$getinverse() returns the cached inverse inv_A of the matrix A
 
 makeCacheMatrix <- function(A = matrix()) {
     inv_A <- NULL
